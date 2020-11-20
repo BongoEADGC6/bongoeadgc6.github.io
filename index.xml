@@ -1,0 +1,31 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HagueSt Blog</title>
+    <link>https://bongoeadgc6.github.io/</link>
+    <description>Recent content on HagueSt Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 20 Nov 2020 18:10:12 -0500</lastBuildDate>
+    
+        <atom:link href="https://bongoeadgc6.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Articles</title>
+      <link>https://bongoeadgc6.github.io/article/</link>
+      <pubDate>Fri, 20 Nov 2020 18:10:12 -0500</pubDate>
+      
+      <guid>https://bongoeadgc6.github.io/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://bongoeadgc6.github.io/link/</link>
+      <pubDate>Wed, 01 Nov 2017 13:05:27 +0100</pubDate>
+      
+      <guid>https://bongoeadgc6.github.io/link/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
