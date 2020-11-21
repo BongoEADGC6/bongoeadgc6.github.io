@@ -6,11 +6,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://bongoeadgc6.github.io/">
     <meta name="author" content="Cliff Hults">
     <meta name="description" content="Personal tech blog.">
     <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,highlight.js,syntax highlighting,shortcuts">
     <meta name="generator" content="Hugo 0.78.2" />
-    <title> A personal blog to compile notes, thoughts, and many mistakes of a SysAdmin&#39;s journey. | HagueSt Blog</title>
+    <title>
+        
+           
+               A personal blog to compile notes, thoughts, and many mistakes of a SysAdmin&#39;s journey. &vert; HagueSt Blog
+           
+        
+    </title>
     <meta name="description" content="Personal tech blog.">
     <meta itemprop="name" content="A personal blog to compile notes, thoughts, and many mistakes of a SysAdmin&#39;s journey.">
     <meta itemprop="description" content="Personal tech blog.">
@@ -22,6 +29,8 @@
 
     
 
+
+    <script src="/modernizr-simple.js"></script>
 
     
     <link href="/" rel="alternate" type="application/rss+xml" title="HagueSt Blog" />
@@ -35,7 +44,7 @@
     
 
     
-    
+        
     
 </head>
 
@@ -47,13 +56,13 @@
     <div class="container">
         <ul class="topnav">
             
+                
+                    <li><a href="https://github.com/BongoEADGC6" target="_blank">Github</a></li>
+                
             
-            <li><a href="https://github.com/BongoEADGC6" target="_blank">Github</a></li>
-            
-            
-            
-            <li><a href="https://bongoeadgc6.github.io/page/about/">About Me</a></li>
-            
+                
+                    <li><a href="https://bongoeadgc6.github.io/page/about/">About Me</a></li>
+                
             
         </ul>
 
@@ -63,35 +72,43 @@
 
 
     
-<header>
+    <header>
 
-    <div class="container">
-        <div class="logo">
-            <a id="siteBaseUrl" href="/" class="logo">
-                
-                <img src="https://www.gravatar.com/avatar/fbadc1ea6f3dfcdfcf43615da5f2b9bf?d=mm&size=200" alt="">
-                
+        <div class="container">
+            <div class="logo">
+                <a href="/" class="logo">
+                    
+                        
+                        
+                            
+                        
+                        <img src="https://seccdn.libravatar.org/avatar/fbadc1ea6f3dfcdfcf43615da5f2b9bf?d=mm&size=200" alt="">
+                    
 
-                <span class="overlay"><i class="fa fa-home"></i></span>
-            </a>
-        </div>
-        <div class="titles">
-            <h3 class="title"><a
-                    href="/">HagueSt Blog</a></h3>
-            
-            <span class="subtitle">A personal blog to compile notes, thoughts, and many mistakes of a SysAdmin&#39;s journey.</span>
-            
-        </div>
-
-        
-
-        
-            <div class="toggler">
-                
-                <i class="fa fa-bars" aria-hidden="true"></i>
+                    <span class="overlay"><i class="fa fa-home"></i></span>
+                </a>
             </div>
-        </div>
-</header>
+            <div class="titles">
+                <h3 class="title">
+                    <a href="/">
+                        HagueSt Blog
+                    </a>
+                </h3>
+
+                
+                    <span class="subtitle">A personal blog to compile notes, thoughts, and many mistakes of a SysAdmin&#39;s journey.</span>
+                
+            </div>
+
+            
+
+            
+                <div class="toggler">
+            
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+    </header>
 
 
     <div class="main container">
@@ -99,11 +116,21 @@
 
 
 
+
+
+
+
+
+
+    
+
+
+
+
     
 
     
         
-     
     <div class="article-wrapper u-cf">
         
             <a class="bubble" href="https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/">
@@ -114,16 +141,23 @@
     
 
     <div class="content">
-    <h1 class="article-title"><a href="https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/">ADFS &amp; CVE-2020-17049</a></h1>
+    <h1 class="article-title">
+        <a href="https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/">
+            ADFS &amp; CVE-2020-17049
+        </a>
+    </h1>
+
     <div class="meta">
         
-        
-        <span class="date moment">2020-11-20</span>
-        
+            
+                <span class="date moment">2020-11-20</span>
+            
         
 
         
-        <span class="readingTime">2 min read</span>
+            
+                <span class="readingTime">2 min read</span>
+            
         
 
         
@@ -132,11 +166,11 @@
     </div>
 
     
-    Microsoft recently performed a patch for Kerberos and the KDC service on domain controllers. This would patch a heavy vulnerability in the Kerberos signing structure. However, this presented a problem with our domain joined Qumulo storage appliance, and disallowed any users from authenticating to SMB shares. In order to alleviate ourselves of the issue, we followed the instructions to disable the following registry key within HKLM\SYSTEM\CurrentControlSet\Services\Kdc\ by adding PerformTicketSignature set to DWORD 0.
+        Microsoft recently performed a patch for Kerberos and the KDC service on domain controllers. This would patch a heavy vulnerability in the Kerberos signing structure. However, this presented a problem with our domain joined Qumulo storage appliance, and disallowed any users from authenticating to SMB shares. In order to alleviate ourselves of the issue, we followed the instructions to disable the following registry key within HKLM\SYSTEM\CurrentControlSet\Services\Kdc\ by adding PerformTicketSignature set to DWORD 0.
 
-    
-    <a href="https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/" class="more">Continue reading</a>
-    
+        
+            <a href="https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/" class="more">Continue reading</a>
+        
     
 </div>
 
@@ -157,7 +191,6 @@
 
     
         
-     
     <div class="article-wrapper u-cf">
         
             <a class="bubble" href="https://bongoeadgc6.github.io/article/2019-10-20-gcp-image-build/">
@@ -168,45 +201,52 @@
     
 
     <div class="content">
-    <h1 class="article-title"><a href="https://bongoeadgc6.github.io/article/2019-10-20-gcp-image-build/">Building Images for GCP</a></h1>
+    <h1 class="article-title">
+        <a href="https://bongoeadgc6.github.io/article/2019-10-20-gcp-image-build/">
+            Building Images for GCP
+        </a>
+    </h1>
+
     <div class="meta">
         
-        
-        <span class="date moment">2019-09-11</span>
-        
+            
+                <span class="date moment">2019-09-11</span>
+            
         
 
         
-        <span class="readingTime">1 min read</span>
+            
+                <span class="readingTime">1 min read</span>
+            
         
 
         
-        <span class="categories">
-            
+            <span class="categories">
                 
+                    
+                    
+                        <a href="https://bongoeadgc6.github.io/categories/devops/">DevOps</a>
+                    
                 
-                <a href="https://bongoeadgc6.github.io/categories/devops/">DevOps</a>
-                
-            
-        </span>
+            </span>
         
 
         
-        <span class="author">
-            
-            
-            <a href="https://bongoeadgc6.github.io/author/cliff-hults/">Cliff Hults</a>
-            
-        </span>
+            <span class="author">
+                
+                
+                    <a href="https://bongoeadgc6.github.io/author/cliff-hults/">Cliff Hults</a>
+                
+            </span>
         
     </div>
 
     
-    In my last post, I opened with the fact that my company has decided to dive into the world of GCP to get ahead of most of the market in our space. With a few of us being tasked for this initive, I decided to take it upon myself to look into Packer. The goal would be to roll our homebrewed software/OS image into an automated build process to make images in GCP (or AWS, vSphere, etc.
+        In my last post, I opened with the fact that my company has decided to dive into the world of GCP to get ahead of most of the market in our space. With a few of us being tasked for this initive, I decided to take it upon myself to look into Packer. The goal would be to roll our homebrewed software/OS image into an automated build process to make images in GCP (or AWS, vSphere, etc.
 
-    
-    <a href="https://bongoeadgc6.github.io/article/2019-10-20-gcp-image-build/" class="more">Continue reading</a>
-    
+        
+            <a href="https://bongoeadgc6.github.io/article/2019-10-20-gcp-image-build/" class="more">Continue reading</a>
+        
     
 </div>
 
@@ -254,7 +294,6 @@
 
     
         
-     
     <div class="article-wrapper u-cf">
         
             <a class="bubble" href="https://bongoeadgc6.github.io/article/2019-09-11-vault-journey/">
@@ -265,46 +304,53 @@
     
 
     <div class="content">
-    <h1 class="article-title"><a href="https://bongoeadgc6.github.io/article/2019-09-11-vault-journey/">Vault Journey</a></h1>
+    <h1 class="article-title">
+        <a href="https://bongoeadgc6.github.io/article/2019-09-11-vault-journey/">
+            Vault Journey
+        </a>
+    </h1>
+
     <div class="meta">
         
-        
-        <span class="date moment">2019-09-11</span>
-        
+            
+                <span class="date moment">2019-09-11</span>
+            
         
 
         
-        <span class="readingTime">1 min read</span>
+            
+                <span class="readingTime">1 min read</span>
+            
         
 
         
-        <span class="categories">
-            
+            <span class="categories">
                 
+                    
+                    
+                        <a href="https://bongoeadgc6.github.io/categories/devops/">DevOps</a>
+                    
                 
-                <a href="https://bongoeadgc6.github.io/categories/devops/">DevOps</a>
-                
-            
-        </span>
+            </span>
         
 
         
-        <span class="author">
-            
-            
-            <a href="https://bongoeadgc6.github.io/author/cliff-hults/">Cliff Hults</a>
-            
-        </span>
+            <span class="author">
+                
+                
+                    <a href="https://bongoeadgc6.github.io/author/cliff-hults/">Cliff Hults</a>
+                
+            </span>
         
     </div>
 
     
-    Being a good SysAdmin requires some sense of laziness. In the spirit of that approach, I&rsquo;ve spent some time looking into Hashicorp&rsquo;s Terraform and Red Hat&rsquo;s Ansible tools in my organization&rsquo;s route to Google Cloud Platform. I wanted a method to create reproducable Copute Engine VMs that would allow us to easily create multiple hosts with minor changes quickly and easily.
+        Being a good SysAdmin requires some sense of laziness. In the spirit of that approach, I&rsquo;ve spent some time looking into Hashicorp&rsquo;s Terraform and Red Hat&rsquo;s Ansible tools in my organization&rsquo;s route to Google Cloud Platform. I wanted a method to create reproducable Copute Engine VMs that would allow us to easily create multiple hosts with minor changes quickly and easily.
 I decided that with the use of Terraform, Vault (also from Hashicorp) would allow me to templatize the configs, as well as, create secrets/passwords that would be randomized, able to be called at will, and even automatically rolled with a configured frequency.
 
-    
-    <a href="https://bongoeadgc6.github.io/article/2019-09-11-vault-journey/" class="more">Continue reading</a>
-    
+        
+            <a href="https://bongoeadgc6.github.io/article/2019-09-11-vault-journey/" class="more">Continue reading</a>
+        
     
 </div>
 
@@ -352,7 +398,6 @@ I decided that with the use of Terraform, Vault (also from Hashicorp) would allo
 
     
         
-     
     <div class="article-wrapper u-cf">
         
             <a class="bubble" href="https://bongoeadgc6.github.io/article/2019-09-07-initial-commit/">
@@ -363,43 +408,50 @@ I decided that with the use of Terraform, Vault (also from Hashicorp) would allo
     
 
     <div class="content">
-    <h1 class="article-title"><a href="https://bongoeadgc6.github.io/article/2019-09-07-initial-commit/">Initial Commit!</a></h1>
+    <h1 class="article-title">
+        <a href="https://bongoeadgc6.github.io/article/2019-09-07-initial-commit/">
+            Initial Commit!
+        </a>
+    </h1>
+
     <div class="meta">
         
-        
-        <span class="date moment">2019-09-07</span>
-        
+            
+                <span class="date moment">2019-09-07</span>
+            
         
 
         
-        <span class="readingTime">1 min read</span>
+            
+                <span class="readingTime">1 min read</span>
+            
         
 
         
-        <span class="categories">
-            
+            <span class="categories">
                 
+                    
+                    
+                        <a href="https://bongoeadgc6.github.io/categories/info/">Info</a>
+                    
                 
-                <a href="https://bongoeadgc6.github.io/categories/info/">Info</a>
-                
-            
-        </span>
+            </span>
         
 
         
-        <span class="author">
-            
-            
-            <a href="https://bongoeadgc6.github.io/author/cliff-hults/">Cliff Hults</a>
-            
-        </span>
+            <span class="author">
+                
+                
+                    <a href="https://bongoeadgc6.github.io/author/cliff-hults/">Cliff Hults</a>
+                
+            </span>
         
     </div>
 
     
-    Finally getting to use this site! Been looking forward to creating some posts here to document travels of random sets of information. Hopefully to provide some steering for those who during their travels ended up in the same situation and went looking for info.
+        Finally getting to use this site! Been looking forward to creating some posts here to document travels of random sets of information. Hopefully to provide some steering for those who during their travels ended up in the same situation and went looking for info.
 
-    
+        
     
 </div>
 
@@ -452,7 +504,6 @@ I decided that with the use of Terraform, Vault (also from Hashicorp) would allo
 
     
         
-     
     <div class="article-wrapper u-cf">
         
             <a class="bubble" href="https://duckduckgo.com" target="_blank">
@@ -494,25 +545,22 @@ I decided that with the use of Terraform, Vault (also from Hashicorp) would allo
             <strong>Latest posts</strong>
             <ul>
                 
-                <li>
-                    <a href="https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/">ADFS &amp; CVE-2020-17049</a>
-                </li>
                 
-                <li>
-                    <a href="https://bongoeadgc6.github.io/article/2019-09-11-vault-journey/">Vault Journey</a>
-                </li>
+                    <li>
+                        <a href="https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/">ADFS &amp; CVE-2020-17049</a>
+                    </li>
                 
-                <li>
-                    <a href="https://bongoeadgc6.github.io/article/2019-10-20-gcp-image-build/">Building Images for GCP</a>
-                </li>
+                    <li>
+                        <a href="https://bongoeadgc6.github.io/article/2019-09-11-vault-journey/">Vault Journey</a>
+                    </li>
                 
-                <li>
-                    <a href="https://bongoeadgc6.github.io/article/2019-09-07-initial-commit/">Initial Commit!</a>
-                </li>
+                    <li>
+                        <a href="https://bongoeadgc6.github.io/article/2019-10-20-gcp-image-build/">Building Images for GCP</a>
+                    </li>
                 
-                <li>
-                    <a href="https://bongoeadgc6.github.io/link/duckduckgo/">Duckduckgo.com</a>
-                </li>
+                    <li>
+                        <a href="https://bongoeadgc6.github.io/article/2019-09-07-initial-commit/">Initial Commit!</a>
+                    </li>
                 
             </ul>
         </div>
@@ -592,8 +640,6 @@ I decided that with the use of Terraform, Vault (also from Hashicorp) would allo
     
 
     
-
-
 </body>
 
 </html>
