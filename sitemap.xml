@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bongoeadgc6.github.io/tags/adfs/</loc>
+    <lastmod>2020-11-20T18:10:12-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bongoeadgc6.github.io/article/2020-11-20-adfs-cve-2020-17049/</loc>
     <lastmod>2020-11-20T18:10:12-05:00</lastmod>
   </url>
@@ -13,7 +18,37 @@
   </url>
   
   <url>
+    <loc>https://bongoeadgc6.github.io/categories/</loc>
+    <lastmod>2020-11-20T18:10:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bongoeadgc6.github.io/tags/cve/</loc>
+    <lastmod>2020-11-20T18:10:12-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bongoeadgc6.github.io/</loc>
+    <lastmod>2020-11-20T18:10:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bongoeadgc6.github.io/categories/info/</loc>
+    <lastmod>2020-11-20T18:10:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bongoeadgc6.github.io/tags/</loc>
+    <lastmod>2020-11-20T18:10:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bongoeadgc6.github.io/tags/vulnerability/</loc>
+    <lastmod>2020-11-20T18:10:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bongoeadgc6.github.io/tags/windows/</loc>
     <lastmod>2020-11-20T18:10:12-05:00</lastmod>
   </url>
   
@@ -48,11 +83,6 @@
   </url>
   
   <url>
-    <loc>https://bongoeadgc6.github.io/categories/</loc>
-    <lastmod>2019-09-11T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bongoeadgc6.github.io/author/cliff-hults/</loc>
     <lastmod>2019-09-11T04:00:00+00:00</lastmod>
   </url>
@@ -73,11 +103,6 @@
   </url>
   
   <url>
-    <loc>https://bongoeadgc6.github.io/tags/</loc>
-    <lastmod>2019-09-11T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bongoeadgc6.github.io/tags/terraform/</loc>
     <lastmod>2019-09-11T04:00:00+00:00</lastmod>
   </url>
@@ -94,11 +119,6 @@
   
   <url>
     <loc>https://bongoeadgc6.github.io/tags/hello/</loc>
-    <lastmod>2019-09-07T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bongoeadgc6.github.io/categories/info/</loc>
     <lastmod>2019-09-07T04:00:00+00:00</lastmod>
   </url>
   
